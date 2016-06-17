@@ -1,26 +1,8 @@
-# A starter React project that includes a web API
+# A sample that incorporates Redux into an existing React app
 
-This is a starter project that uses webpack to transpile and bundle ES6 React code. This project also includes a web API exposed through Express.js. 
+This is a small sample project that evolves an existing vanilla (no state management like Flux et al) to using Redux to manage user interactions and state management. I'll try to incorporate things progressively in each commit.
 
-
-## Steps
-
-To experience this repo in all of its glory:
-
-1. Clone this repo
-2. `npm install` and `cd` into it
-3. In terminal window/tab #1: `npm run server`
-4. In terminal window/tab #2: `npm start`
-5. Navigate to [http://localhost:8080](http://localhost:8080)
-
-
-## Exercise options
-
-* Add more endpoints routes to `server/routes/widgets.js` and consume them from the client. For example, add a form to add a new widget.
-
-* Add application state to manage what is being shown (the list, details, a form to add new widgets). Additional components should be placed in `client/components`.
-
-* Add more components and write tests for them in `test`. The tests can be run with `npm test`.
+This project also includes a web API exposed through Express.js. The front end will consume this API to get data to the frontend. It also uses webpack to transpile and bundle ES6 React code. See the `package.json` file for scripts to `npm run` during development.
 
 
 ## FYI
