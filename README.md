@@ -1,4 +1,4 @@
-# A sample that incorporates Redux into an existing React app
+# Incorporating Redux into an existing React app
 
 This is a small sample project that evolves an existing vanilla (no state management like Flux et al) to using Redux to manage user interactions and state management. I'll try to incorporate things progressively in each commit.
 
