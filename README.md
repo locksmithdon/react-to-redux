@@ -7,4 +7,4 @@ This project also includes a web API exposed through Express.js. The front end w
 
 ## FYI
 
-* The server on port 3000 is configured with CORS to allow the client requests from port 8080. See `server/server.js` for details. This is only needed if you're using the webpack-dev-server (`npm start`).
+The server on port 3000 is configured with CORS to allow the client requests from port 8080. See `server/server.js` for details. This is only needed if you're using the webpack-dev-server (`npm start`).
