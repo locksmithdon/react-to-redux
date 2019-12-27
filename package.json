@@ -35,7 +35,7 @@
   "author": "EDA",
   "license": "ISC",
   "devDependencies": {
-    "ava": "^0.15.2",
+    "ava": "^2.4.0",
     "babel-core": "^6.9.1",
     "babel-loader": "^6.2.4",
     "babel-polyfill": "^6.9.1",
@@ -43,18 +43,18 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-react-hmre": "^1.1.1",
     "copy-webpack-plugin": "^3.0.1",
-    "enzyme": "^2.3.0",
+    "enzyme": "^3.11.0",
     "node-dev": "^4.0.0",
     "react": "^15.1.0",
     "react-addons-test-utils": "^15.1.0",
     "react-dom": "^15.1.0",
-    "webpack": "^1.13.1",
+    "webpack": "^2.7.0",
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
     "body-parser": "^1.15.1",
     "cors": "^2.7.1",
     "express": "^4.13.4",
-    "superagent": "^2.0.0"
+    "superagent": "^5.1.3"
   }
 }
